@@ -19,7 +19,7 @@
 }
 
 .close {
-  color: #DC1860;
+  color: #C71585;
   float: right;
   font-size: 28px;
   font-weight: bold;
@@ -73,17 +73,17 @@
 .cards-container li{
   padding-bottom: 20px;
   text-align: center;
-  color: #DC1860;
+  color: #C71585;
 
 
 }
 
 .cards-container .dia{
-  color: #DC1860;
+  color: #C71585;
 }
 
 .titulo-modal {
-  color: #DC1860;
+  color: #C71585;
   padding-bottom: 20px;
   padding-top: 100px;
   text-align: center;
@@ -122,9 +122,9 @@
   
   padding: 10px 20px;
   width: 300px;
-  border: #DC1860 1px solid;
-  outline-color: #DC1860;
-  color: #DC1860;
+  border: #C71585 1px solid;
+  outline-color: #C71585;
+  color: #C71585;
   font: 300 1rem "Roboto Slab", sans-serif;
 }
 
@@ -180,7 +180,7 @@ margin-top: 60px;
  }
 
 .modal-container .close{
-background-color: #DC1860;
+background-color: #C71585;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 align-self: flex-end;
 justify-self: center;
@@ -213,14 +213,14 @@ max-width: 50vw;
 .dicas h2{
   font:  400 1.8rem "Roboto Slab", sans-serif;
   text-transform: initial;
-  color: #DC1860;
+  color: #C71585;
   padding-top: 20px;
 }
 
 .dicas li{
   font: 400 1.1rem "Roboto Slab", sans-serif;
   padding-bottom: 20px;
-  color: #DC1860;
+  color: #C71585;
   
 }
 
