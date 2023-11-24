@@ -92,7 +92,7 @@ color: white;
 
 .band-texto{
  
-  color: #89114F;
+  color: #DC1860;
   font: 400 1.2rem "Roboto Slab", sans-serif;
   padding-left: 20px;
   padding-right: 20px;
@@ -114,19 +114,19 @@ padding-bottom: 10px;
 }
 
 .container-infos .btn{
-  color: #89114F!important; 
+  color: #DC1860!important; 
 }
 
  .btn{
   background-color:white !important;
   font: 400 1.2rem "Roboto Slab", sans-serif !important;
-  color: #89114F!important; 
+  color: #DC1860!important; 
   padding: 15px !important;
   width:200px!important;
   text-align: center!important;
   border-radius:15px!important;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25)!important;
-  border: solid 0.5px #89114F!important;
+  border: solid 0.5px #DC1860!important;
 
 }
 
@@ -138,7 +138,7 @@ padding-bottom: 10px;
 
 
 .btn:hover{
-  background-color:#89114F !important;
+  background-color: #DC1860 !important;
   color: white!important;
 }
 
