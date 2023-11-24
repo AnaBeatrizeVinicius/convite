@@ -85,7 +85,7 @@ a.slide_btn {
 }
 
 .slide_btn.active, .slide_btn:hover {
-  color: #DC1860 ;
+  color: #C71585 ;
   cursor: pointer;
   
 }
@@ -144,7 +144,7 @@ a.slide_btn {
 
 .slider p{
   text-align: center;
-  color: #DC1860;
+  color: #C71585;
 }
 
 .slider p:nth-child(2){
