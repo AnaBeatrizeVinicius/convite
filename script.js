@@ -2,16 +2,27 @@ function countDown() {
   const diasCasamento = new Date('24 February 2024 16:00:00');
   const dataAtual = new Date();
   const quantoTempo = diasCasamento.getTime() - dataAtual.getTime();
-  const dias = Math.floor(quantoTempo / (24 * 60 * 60 * 1000));
-  const horas = Math.floor(quantoTempo / (60 * 60 * 1000)) % 24;
-  const minutos = Math.floor(quantoTempo / (60 * 1000)) % 60;
-  const segundos = Math.floor(quantoTempo / 1000) % 60;
-  const diasDom = (document.querySelector('.dias').innerHTML = dias);
-  const horasDom = (document.querySelector('.horas').innerHTML = horas);
-  const minutosDom = (document.querySelector('.minutos').innerHTML = minutos);
-  const segundosDom = (document.querySelector('.segundos').innerHTML =
-    segundos);
+
+  if (quantoTempo <= 0) {
+    // Caso o tempo restante seja menor ou igual a zero, exibe a mensagem
+    document.querySelector('.contador-container').innerHTML = "Chegou o grande dia!";
+  } else {
+    // Caso contrário, continua com a contagem regressiva
+    const dias = Math.floor(quantoTempo / (24 * 60 * 60 * 1000));
+    const horas = Math.floor(quantoTempo / (60 * 60 * 1000)) % 24;
+    const minutos = Math.floor(quantoTempo / (60 * 1000)) % 60;
+    const segundos = Math.floor(quantoTempo / 1000) % 60;
+
+    // Atualiza os elementos HTML
+    document.querySelector('.dias').innerHTML = dias;
+    document.querySelector('.horas').innerHTML = horas;
+    document.querySelector('.minutos').innerHTML = minutos;
+    document.querySelector('.segundos').innerHTML = segundos;
+  }
 }
+
+
+
 
 setInterval(() => {
   countDown();
@@ -157,3 +168,45 @@ input_link.addEventListener('keyup', () => {
 });
 
 sugerir.addEventListener('click', sugerirMusica);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
